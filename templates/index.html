@@ -1,0 +1,17 @@
+{% extends 'layout.html' %} {% block title %} {{title}} {% endblock %} 
+{% block content %}
+
+<main>
+  <section class="content-head">
+    <section class="spell-head">
+      <h1 class="hd-title" id="text"></h1>
+      <p class="subtitle">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis,
+        laboriosam.
+      </p>
+      <!-- about me -->
+      <a class="btn-landding" href="{{url_for('about')}}">เข้าสู่หน้าหลัก</a>
+    </section>
+  </section>
+</main>
+{% endblock %}
